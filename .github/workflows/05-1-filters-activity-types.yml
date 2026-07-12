@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Echo
-      run: "Running whenever PR is opened or synchonized AND base branch is main"
+      run: echo "Running whenever PR is opened or synchonized AND base branch is main"
       
