@@ -49,7 +49,7 @@ jobs:
           - color: red
             shape: triangle
           - opacity: 50
-        exlcude:
+        exclude:
           - opacity: 75
     name: ${{ matrix.color }}-${{ matrix.shape }}-${{ matrix.size }}-${{ matrix.opacity }}
     steps:
