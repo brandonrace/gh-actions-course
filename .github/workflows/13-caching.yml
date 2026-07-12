@@ -7,6 +7,13 @@ on:
         type: boolean
         default: true
         description: Whether to execute cache step
+      node-version:
+        description: Node version
+        type: choice
+        options:
+          - 24.x
+          - 26.x
+        default: 24.x
 
 jobs:
   build:
