@@ -37,7 +37,7 @@ jobs:
     needs: deploy-nonprod
     steps:
       - name: Running load tests
-        run: "Running load test"
+        run: echo "Running load test"
   deploy-prod:
     runs-on: ubuntu-latest
     needs: [e2e-tests, load-tests]
